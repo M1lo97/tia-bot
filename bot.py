@@ -40,7 +40,7 @@ def getMessage():
 @server.route("/")
 def webhook():
     bot.remove_webhook()
-    bot.set_webhook(url='https://secret-earth-46685.herokuapp.com/' + TOKEN)
+    bot.set_webhook(url='https://paty-bot.herokuapp.com/' + TOKEN)
     return "!", 200
 
 
