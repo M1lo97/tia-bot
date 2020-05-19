@@ -1,5 +1,5 @@
 import telebot
-from Flask import Flask, request
+from flask import Flask, request
 import os
 TOKEN = "1036423681:AAEqsIwZzTsmBp68VewsPZiXnpOdlzZD_hM"
 bot = telebot.TeleBot(token=TOKEN)
